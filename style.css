@@ -37,9 +37,18 @@ h2 {
 }
 
 .logo-variation {
-  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Horizontally center the contents */
+  text-align: center; /* Center the text of h2 and p */
+  margin-bottom: 40px; /* Spacing between each logo variation. Adjust as needed. */
+  border-bottom: 1px solid #ccc; /* Add a thin grey line at the bottom */
+  padding-bottom: 20px;
 }
 
+.logo-variation:last-child {
+  border-bottom: none; /* Remove the border from the last .logo-variation element */
+}
 .logo-variation img {
   max-width: 100%;
   height: auto;
