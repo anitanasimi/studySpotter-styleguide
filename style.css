@@ -58,24 +58,24 @@ h2 {
 
 /* Full-color logo */
 .logo-variation img[src*="logo1"] {
-  width: 200px; /* Or any size you deem appropriate */
+  width: 250px; /* Or any size you deem appropriate */
   margin-bottom: 20px; /* Spacing after the logo before the next element */
 }
 
 /* Horizontal version */
 .logo-variation img[src*="logo2"] {
-  width: 300px;
+  width: 280px;
   margin-bottom: 20px;
 }
 
 /* Black and white logo */
 .logo-variation img[src*="logo3"] {
-  width: 200px;
+  width: 250px;
   margin-bottom: 20px;
 }
 
 /* Greyscale logo */
 .logo-variation img[src*="logo4"] {
-  width: 200px;
+  width: 250px;
   margin-bottom: 20px;
 }
